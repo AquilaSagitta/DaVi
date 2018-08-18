@@ -68,7 +68,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[name].[hash].min.css'
     }),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'src/index.html'
+    }),
     new ImageminPlugin(),
     new Cleanup(),
   ] : [
@@ -76,7 +78,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[name].[hash].min.css'
     }),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'src/index.html'
+    }),
     new ImageminPlugin(),
     new Cleanup(),
   ],
