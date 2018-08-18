@@ -16,12 +16,10 @@ after(function () {
   delete global.browser;
 });
 
-describe('Mocha', function () {
-  describe('sample test', function () {
-    it('should work', async function () {
-      await browser.version();
+describe('This test', function () {
+  it('should work', async function () {
+    await browser.version();
 
-      true.should.be.true;
-    });
+    true.should.be.true;
   });
 });
