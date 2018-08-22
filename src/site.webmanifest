@@ -1,0 +1,7 @@
+{
+  "name": "DaVi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A foundation for starting new web projects"
+}
